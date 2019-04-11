@@ -1,0 +1,144 @@
+
+
+@media only screen and (max-width: 1024px) and (orientation:portrait){
+
+.publicidad .six.columns {
+	width: 480px;
+	margin-bottom: 0px!important
+}
+
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 768px) and (orientation:landscape){
+
+.publicidad .six.columns {
+	width: 480px;
+}
+
+.titleP {
+	margin-top: -25px
+}
+
+}
+
+
+@media only screen and (max-width: 768px) and (max-height: 1024px) and (orientation:portrait){
+
+
+.home #header h1 a {
+	background: url(../images/logo_gray.svg) 50% bottom no-repeat;
+	background-size: 155px;
+	color: black!important
+}
+
+a.menuBtn {
+	background:url(../images/menu_gray.svg) 50% 50% no-repeat;
+}
+
+
+.button.outline, .icon.outline {
+	color: black
+}
+.publicidad .six.columns {
+	width: 330px;
+	height: 180px
+}
+
+.titleP {
+	height: 30px;
+	margin-top: 10px
+}
+
+.contacto .nine {margin-left: 0}
+
+}
+
+@media only screen and (max-width: 736px) and (orientation:landscape){
+#menu > ul > li {
+	padding-top: 10px
+}
+
+#backBorder.on {
+		border:none;
+	}
+
+
+}
+
+@media only screen and (max-width: 414px) and (orientation:portrait){
+#menu > ul > li {
+	padding-top: 20px
+}
+
+#bio.contact {
+	overflow: visible
+}
+
+#bio img {margin-top: 0}
+#publicidad h2, #bio h2 {
+	width: 100%;
+	font-size: 40px;
+	margin-left: 0
+}
+ .twelve.columns {margin: 0 0 5px}
+.twelve.columns,
+.row {
+	width: 100%
+}
+
+#backBorder.on {
+		border:none;
+	}
+#publicidad h2 {
+	margin-bottom:20px;
+}
+
+	#publicidad h2:after, #bio h2:after {
+		width: 100%
+	}
+
+	#bio.contact h2:after {
+		width: 40%
+	}
+
+.publicidad .six.columns {
+	float: none;
+	margin: 10px auto;
+	display: block
+}
+
+#mail {
+	margin: 0px
+}
+
+}
+
+@media only screen and (max-width: 375px) and (orientation:portrait){ 
+#header h1 {
+	margin: 40px 30px;
+	width: 162px;
+	height: 70px
+}
+
+
+
+
+a.menuBtn {
+	position: absolute;
+	right: 20px;
+	top: 60px;
+	margin: 0
+}
+
+}
+
+@media only screen and (max-width: 667px) and (orientation:landscape){ 
+body {
+	background: url(../images/fake_logo.gif) 50% 50% no-repeat;
+	background-size: 80%;
+}
+
+body * {
+	display: none!important;
+}
+}
